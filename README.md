@@ -46,7 +46,7 @@ The size of the population needed to repair this program was 4 with a random str
 This bug consists of a simple ``divide`` function that takes two parameters ``a`` and ``b`` and tries to return ``a / b``.
 While this code generally works, it doesn't check the value of ``b`` to protect against divisions by zero.
 ### Repair
-The tool replaces ``b`` of the statement at line 3 by ``dividend``. ``dividend``is picked from the vocabularies of the original program. That is satisfied the SMC property but the function's semantic may not be correct. (See divide_patch2.c)
+The tool replaces ``b`` of the statement at line 3 by ``dividend``. ``dividend``is picked from the vocabularies of the original program. This satisfies the SMC property but the function's semantic may not be correct. (See divide_patch2.c)
 The size of the population needed to repair this program was 1 with a random strategy and 3 with the Q-function.
 ## Buffer overflow
 ### Description 

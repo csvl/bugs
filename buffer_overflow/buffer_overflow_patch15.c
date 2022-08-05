@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
     srand(time(NULL));
     int r = rand() % 14; //overflow on x when r = 13   //no terminating \0 when r >= 7
     printf("%d\n", r);
-    strncpy(buf, "dddddddddddddddddddddddddddddddd", r);
+    strncpy(buf, "dddddddddddddddddddddddddddddddd", argc);
     if (x == 100) {
         printf("secret");
     } else {

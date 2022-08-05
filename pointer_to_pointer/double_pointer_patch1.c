@@ -77,7 +77,7 @@ int main(int argc, char **argv) {
 	}
 	
 	/* Are we going to insert a null value somewhere? */
-	int insertNull = rand() % 10;
+	int insertNull = rand() % 1;
 	
 	/* If so let's insert it at a random position */
 	if (insertNull == 1) {

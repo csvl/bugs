@@ -1,0 +1,15 @@
+executable = "/media/kdam/Data/UCL/code/Project2/Project2/temp/add"
+function = "add"
+
+[simulator]
+name = "gdb"
+
+[simulator.options]
+CF = true
+OF = true
+STACK_M = false
+gdb_path = "/usr/bin/gdb"
+
+[variables]
+a = "a"
+b = "b"

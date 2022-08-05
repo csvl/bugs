@@ -1,0 +1,17 @@
+executable = "/media/kdam/Data/UCL/code/Project2/Project2/temp/search"
+function = "search"
+
+[simulator]
+name = "gdb"
+
+[simulator.options]
+CF = true
+OF = true
+STACK_M = false
+gdb_path = "/usr/bin/gdb"
+
+[variables]
+elem="elem"
+gt="gt"
+eax="$eax"
+arr_size = "size"

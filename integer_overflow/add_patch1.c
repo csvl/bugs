@@ -2,10 +2,10 @@
 
 int add(int a, int b) {
 	int result;
-	//ERROR
+	if((!(a > 0 && b > INT_MAX - a))) { //ERROR
 	result = a+b;
 
-	return result;
+	} return result;
 }
 
 int main() {

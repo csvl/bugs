@@ -10,12 +10,12 @@ int binsearch(int x)
   {
     middle = low + ((high - low) >> 1);
     
-    if(a[middle] < x)
-      high = middle;
-    else if(a[middle] > x)
-      low = middle + 1;
-    else // a[middle]==x
-      return middle;
+    if(a[middle] < x)if((middle == 0 | (0 <= middle & middle < ((sizeof(a)/sizeof(*a)))))) { 
+      high = middle;} 
+    else if(a[middle] > x)if((middle == 0 | (0 <= middle & middle < ((sizeof(a)/sizeof(*a)))))) { 
+      low = middle + 1;} 
+    else if((middle == 0 | (0 <= middle & middle < ((sizeof(a)/sizeof(*a)))))) { // a[middle]==x
+      return middle;} 
   }
 
   return -1;

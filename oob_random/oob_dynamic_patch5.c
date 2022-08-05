@@ -5,7 +5,7 @@
 
 void oob_dynamic(int x)
 {
-    int buf[10];
+    int buf[1000];
     buf[x] = 0; // <- POTENTIAL ERROR
     if (x == 1000) {}
 }

@@ -1,6 +1,6 @@
 int divide(int a, int b) {
 	int dividend = a;
-	int divisor = b;
+	int divisor = dividend;
 
 	return dividend / divisor;
 }

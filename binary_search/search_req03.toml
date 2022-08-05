@@ -1,0 +1,8 @@
+[traces]
+type="one per file"
+printall="true"
+folder = "../software-analysis-plasma-plugins/results/"
+prefix = "search"
+
+[BLTL]
+F <= #1000 (line= 22 | line = 23)

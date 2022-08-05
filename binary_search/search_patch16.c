@@ -7,7 +7,7 @@ int gt;
 int search(int arr[], int size, int elem)
 {
     int l = 0;
-    int r = size; //should be size-1
+    int r = size-1;
     int m;
     while (r>= l) {
         m = (r + l) / 2;

@@ -1,0 +1,17 @@
+executable = "/media/kdam/Data/UCL/code/Project2/Project2/temp/main"
+function = "main"
+
+[simulator]
+name = "gdb"
+
+[simulator.options]
+CF = true
+OF = true
+STACK_M = false
+gdb_path = "/usr/bin/gdb"
+
+[variables]
+x = "x"
+r = "r"
+b0 = "(int) buf[0]"
+b12 = "(int) buf[12]"

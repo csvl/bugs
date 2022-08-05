@@ -1,0 +1,8 @@
+[traces]
+type="one per file"
+printall="true"
+folder = "../software-analysis-plasma-plugins/results/"
+prefix = "binsearch"
+
+[BLTL]
+G <= #1000 line > 11 => $middle == 0 | (0 <= middle & middle < ((sizeof(a)/sizeof(*a))))$

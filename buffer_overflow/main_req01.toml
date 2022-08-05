@@ -1,0 +1,8 @@
+[traces]
+type="one per file"
+printall="true"
+folder = "../software-analysis-plasma-plugins/results/"
+prefix = "main"
+
+[BLTL]
+G <= #100 $x!=100$
